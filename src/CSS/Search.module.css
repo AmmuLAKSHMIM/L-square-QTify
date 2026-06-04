@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+/* The Parent Wrapper handles the grouping */
+form {
+  display: flex !important; /* Forces layout tracking */
+  margin: 20px;
+}
+
+.wrapper {
+  display: flex;
+  align-items: center;
+  width: 502px; /* Standard QTify mockup width */
+}
+
+/* Inside elements just fill up the wrapper space */
+.search {
+  flex-grow: 1; /* Takes up all remaining space */
+  border-radius: 8px 0px 0px 8px; 
+  width: 300px;
+  height: 40px;
+  padding: 8px;
+  border: 1px solid #121212;
+  background-color: white;
+  color: black;
+}
+
+.searchButton {
+  width: 66px;
+  border-radius: 0px 8px 8px 0px;
+  height: 40px;
+  background-color: #34c94b; /* QTify Green */
+  color: white;
+  border: none;
+  cursor: pointer;
+}

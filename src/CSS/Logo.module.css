@@ -1,0 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+img{
+    background-color:green;
+    width: 100px;
+    height: auto;  /* Maintains the original aspect ratio so it doesn't look stretched */
+}

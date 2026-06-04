@@ -1,0 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+.navstyle{
+    background-color: green;
+    height: 74px;
+  padding: 0px 32px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
