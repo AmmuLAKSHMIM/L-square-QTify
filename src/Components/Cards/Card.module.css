@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+ .wrapper {
+  display: flex;
+  flex-direction: column;
+  width: 100%; /* Spans the full width of its designated grid column */
+  max-width: 159px; /* Caps size exactly to Figma design guidelines */
+  margin: 0 auto;  /* Centers the card neatly in its grid space */
+  gap: 8px;
+}
+
+.card {
+  position: relative;
+  width: 100%;
+  height: 205px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+.image {
+  width: 100%;
+  height: 170px;
+  object-fit: cover;
+}
+
+.banner {
+  height: 35px;
+  background-color: #ffffff;
+  display: flex;
+  align-items: center;
+  padding: 0px 8px;
+}
+
+.chip {
+  background-color: #121212 !important;
+  color: #ffffff !important;
+  font-family: "Poppins", sans-serif;
+  font-size: 10px !important;
+  font-weight: 400 !important;
+  height: 23px !important;
+}
+
+.titleWrapper {
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  color: #ffffff;
+  margin: 0;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}

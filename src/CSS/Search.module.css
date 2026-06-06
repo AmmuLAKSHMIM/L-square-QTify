@@ -12,6 +12,13 @@ form {
   width: 502px; /* Standard QTify mockup width */
 }
 
+.searchbar{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+
 /* Inside elements just fill up the wrapper space */
 .search {
   flex-grow: 1; /* Takes up all remaining space */

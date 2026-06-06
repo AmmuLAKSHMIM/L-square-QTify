@@ -1,1 +1,2 @@
- https://qtify-mrm0scdw3-lakshmi-ms-projects.vercel.app
+
+ https://qtify-psi-murex.vercel.app//

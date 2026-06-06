@@ -3,4 +3,16 @@
 .heroWrapper{
     background-color: black;
     color: aliceblue;
+    display: flex;
+    margin-left: auto;
+}
+h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+section{
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }

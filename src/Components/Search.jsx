@@ -5,17 +5,15 @@ import styles from "../CSS/Search.module.css"
 const Search = () => {
   return (
     <>
-
+    <div className={styles.searchbar}>
     <form className={styles.wrapper}>
       <input 
-    //   id="outlined-basic"
       className={styles.search}
-      placeholder='search'
-    //    label="Outlined" 
-    //   variant="outlined" 
+      placeholder="search"
       />
       <button className={styles.searchButton} type="submit">Search</button>
     </form>
+    </div>
     </>
   )
 }

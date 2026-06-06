@@ -14,8 +14,13 @@ code {
 
 :root {
   --font-family: 'Poppins', sans-serif;
+  --color-primary: #34c94b; /* QTify Green */
+  --color-black: #121212;   /* Dark Theme Background */
+  --color-white: #ffffff;
 }
 
 body {
-  font-family: var(--font-family);
+  background-color: #121212; /* Ensures your app background stays dark */
+  color: #ffffff;
+  font-family: "Poppins", sans-serif;
 }
