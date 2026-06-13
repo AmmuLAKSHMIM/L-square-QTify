@@ -1,53 +1,51 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
- .wrapper {
+.wrapper {
   display: flex;
   flex-direction: column;
-  width: 100%; /* Spans the full width of its designated grid column */
-  max-width: 159px; /* Caps size exactly to Figma design guidelines */
-  margin: 0 auto;  /* Centers the card neatly in its grid space */
   gap: 8px;
+  width: 159px;
 }
 
 .card {
   position: relative;
-  width: 100%;
+  width: 159px;
   height: 205px;
-  background-color: #ffffff;
   border-radius: 10px;
   overflow: hidden;
-  display: flex;
-  flex-direction: column;
+  background-color: var(--color-white);
 }
 
-.image {
+.card img {
   width: 100%;
   height: 170px;
   object-fit: cover;
 }
 
 .banner {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
   height: 35px;
-  background-color: #ffffff;
+  background-color: var(--color-white);
   display: flex;
   align-items: center;
-  padding: 0px 8px;
+  padding-left: 8px;
+  box-sizing: border-box;
 }
 
-.chip {
-  background-color: #121212 !important;
-  color: #ffffff !important;
+/* Material UI Chip Global Injection target overrides */
+:global(.MuiChip-root).chip {
+  background-color: var(--color-black) !important;
+  color: var(--color-white) !important;
   font-family: "Poppins", sans-serif;
-  font-size: 10px !important;
-  font-weight: 400 !important;
-  height: 23px !important;
+  font-size: 10px;
+  height: 23px;
 }
 
 .titleWrapper {
-  font-family: "Poppins", sans-serif;
+  color: var(--color-white);
   font-size: 14px;
-  color: #ffffff;
-  margin: 0;
+  white-space: nowrap;
   text-overflow: ellipsis;
   overflow: hidden;
-  white-space: nowrap;
 }

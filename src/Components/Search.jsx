@@ -1,6 +1,6 @@
 import React from 'react'
 // import {TextField} from "@mui/material"
-import styles from "../CSS/Search.module.css"
+import styles from "../Components/CSS/Search.module.css"
 
 const Search = () => {
   return (

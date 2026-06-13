@@ -2,7 +2,7 @@ import React from 'react'
 import Logo from './Logo'
 import Button from './Button'
 import Search from './Search'
-import styles from '../CSS/Navbar.module.css'
+import styles from "../Components/CSS/Navbar.module.css"
 
 const Navbar = () => {
   return (

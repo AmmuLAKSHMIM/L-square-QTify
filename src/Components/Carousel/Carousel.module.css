@@ -1,0 +1,56 @@
+.carouselWrapper {
+  position: relative;
+  width: 100%;
+  margin: 20px 0;
+}
+
+/* Custom override for Swiper slides to prevent unwanted stretching */
+.customSlide {
+  width: auto !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.leftNav,
+.rightNav {
+  position: absolute;
+  top: 45%; /* Centers the button vertically relative to the card image height */
+  transform: translateY(-50%);
+  z-index: 10; /* Ensures the arrows sit on top of the slide cards */
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: transform 0.2s ease, opacity 0.2s ease;
+}
+
+.leftNav {
+  left: 10px;
+}
+
+.rightNav {
+  right: 10px;
+}
+
+/* Hover effects to give crisp user feedback */
+.leftNav:hover,
+.rightNav:hover {
+  transform: translateY(-50%) scale(1.15);
+}
+
+/* Style formatting if you are rendering standard HTML <img> tags for your arrows */
+.leftNav img,
+.rightNav img {
+  width: 32px;
+  height: 32px;
+  object-fit: contain;
+}
+
+/* Style formatting if you are importing raw SVGs as React Components */
+.leftNav svg,
+.rightNav svg {
+  width: 32px;
+  height: 32px;
+  fill: var(--color-primary); /* Uses your QTify green accent color */
+}

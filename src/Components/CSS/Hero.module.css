@@ -16,3 +16,21 @@ section{
   justify-content: center;
   align-items: center;
 }
+
+.hero {
+  height: 270px;
+  background-color: var(--color-black);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  text-align: left; /* Text handles columns to the left, image to the right */
+}
+
+.hero h1 {
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 48px;
+  margin: 0;
+  color: var(--color-white);
+}

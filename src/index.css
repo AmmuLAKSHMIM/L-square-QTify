@@ -1,26 +1,19 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
 
 :root {
-  --font-family: 'Poppins', sans-serif;
-  --color-primary: #34c94b; /* QTify Green */
-  --color-black: #121212;   /* Dark Theme Background */
-  --color-white: #ffffff;
+  --color-primary: #34c94b; /* QTify Accent Green */
+  --color-black: #121212;   /* App Base Background */
+  --color-white: #ffffff;   /* Primary Typography */
 }
 
 body {
-  background-color: #121212; /* Ensures your app background stays dark */
-  color: #ffffff;
+  margin: 0;
+  padding: 0;
+  background-color: var(--color-black);
+  color: var(--color-white);
   font-family: "Poppins", sans-serif;
+  -webkit-font-smoothing: antialiased;
 }
