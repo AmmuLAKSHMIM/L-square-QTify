@@ -42,12 +42,5 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  },
-"jest": {
-  "moduleNameMapper": {
-    "^swiper/react$": "<rootDir>/node_modules/swiper/swiper-react.js",
-    "^swiper/modules$": "<rootDir>/node_modules/swiper/modules/index.js",
-    "\\.(css|less|scss)$": "identity-obj-proxy"
   }
-}
 }
