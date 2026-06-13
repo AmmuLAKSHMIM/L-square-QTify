@@ -7,10 +7,7 @@ const Search = () => {
     <>
     <div className={styles.searchbar}>
     <form className={styles.wrapper}>
-      <input 
-      className={styles.search}
-      placeholder="search"
-      />
+       <input placeholder="Search an album"   className={styles.search}/>
       <button className={styles.searchButton} type="submit">Search</button>
     </form>
     </div>

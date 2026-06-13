@@ -3,17 +3,17 @@
 .navstyle{
     background-color: green;
     height: 74px;
-  padding: 0px 32px;
+  padding: 0px 37px;
 
     display: flex;
     justify-content: space-between;
     align-items: center;
-}
+ }
 .navbar {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 0px 32px;
+  padding: 0px 37px;
   background-color: var(--color-black); /* Assuming your CSS variable */
   height: 74px;
 }
@@ -24,7 +24,7 @@
   align-items: center;
   background-color: var(--color-primary); /* Navbar itself is green! */
   height: 74px;
-  padding: 0px 32px;
+  padding: 0px 37px;
 }
 
 /* Form block */

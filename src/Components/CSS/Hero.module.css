@@ -1,12 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
 
 .heroWrapper{
-    background-color: black;
+    background-color: #121212;;
     color: aliceblue;
     display: flex;
     margin-left: auto;
 }
-h2{
+h1{
     display: flex;
     justify-content: center;
     align-items: center;

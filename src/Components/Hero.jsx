@@ -6,7 +6,7 @@ const Hero = () => {
   return (
     <>
     <section className={styles.heroWrapper}>
-      <h2>100 Thousands songs,ad-free <br /> Over thousands podcast episodes</h2>
+      <h1>100 Thousands songs,ad-free <br /> Over thousands podcast episodes</h1>
       <img src={HeroImg} alt="Heroimg" />
       </section>
     </>
