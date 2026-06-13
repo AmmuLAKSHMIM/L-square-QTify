@@ -9,22 +9,15 @@
     justify-content: space-between;
     align-items: center;
  }
-.navbar {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 0px 37px;
-  background-color: var(--color-black); /* Assuming your CSS variable */
-  height: 74px;
-}
 
 .navbar {
   display: flex;
   justify-content: space-between;
-  align-items: center;
-  background-color: var(--color-primary); /* Navbar itself is green! */
+  align-items: center; /* 🔹 Vertically centers Logo, Search, and Button */
+  background-color: var(--color-primary);
   height: 74px;
-  padding: 0px 37px;
+  padding: 0px 32px; /* 🔹 32px padding on the left ensures space next to the logo */
+  box-sizing: border-box;
 }
 
 /* Form block */

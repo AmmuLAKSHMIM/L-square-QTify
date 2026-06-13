@@ -7,7 +7,12 @@ import LogoImg from "./Assets/Logo1.png"
 const Logo = () => {
   return (
     <>
-      <img src={LogoImg} alt="logo"/>
+       <img 
+      src={LogoImg} 
+      alt="QTify Logo" 
+      width={67} 
+      style={{ display: "block" }} 
+    />
     </>
   )
 }
